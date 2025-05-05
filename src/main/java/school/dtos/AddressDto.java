@@ -1,18 +1,13 @@
-package school.model;
+package school.dtos;
 
-import jakarta.persistence.Embeddable;
-import jakarta.validation.constraints.NotBlank;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Embeddable
 @NoArgsConstructor
-@AllArgsConstructor
 @Getter
 @Setter
-public class Address {
+public class AddressDto {
     private String postalCode;
     private String city;
     private String street;
