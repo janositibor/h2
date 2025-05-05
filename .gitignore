@@ -1,0 +1,5 @@
+Dockerfile
+batsForDocker/*.txt
+target
+.idea/
+*.iml
